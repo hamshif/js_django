@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html ng-app>
+	<head>
+		<meta charset="utf-8">
+		<title>Sequencer Home</title>
+		
+		<script type="text/javascript" src="/static/js_django/js/angular.js"></script>
+		<script type="text/javascript" src="/static/js_django/js/jquery-1.10.2.js"></script>
+		
+		<script type="text/javascript" src="/static/js_django/js/oo_support.js"></script>
+		<script type="text/javascript" src="/static/js_django/js/BaseGUI.js"></script>
+		<script type="text/javascript" src="/static/js_django/js/Starter.js"></script>
+		
+		
+		<script type="text/javascript" src="/static/js_django/js/main.js"></script>
+		<script type="text/javascript" src="/static/js_django/js/BaseMap.js"></script>
+		
+		
+		<script type="text/javascript" src="/static/sequencer/js/bcl2fastq.js"></script>
+		<script type="text/javascript" src="/static/sequencer/js/bcl2fastq_gui.js"></script>
+		<script type="text/javascript" src="/static/sequencer/js/sequencer.js"></script>
+		
+		<link rel="stylesheet" type="text/css" href="/static/js_django/css/main.css" media="screen" />
+		
+	</head>
+
+	<body>
+		
+	
+		<div id="header">
+			
+			<h1>Sequencer Home</h1>
+			
+		</div>
+		
+		<div class="container clearfix">
+		  
+		  <div id="div_raw_form" class="main">
+
+					<div ng-app="">
+					  <h2>Name: <input type="text" id="t_name" ng-model="name">
+					  	
+					  </h2>
+					  <p ng-bind="name">
+					  	
+					  </p>
+					</div>
+
+				<!-- <div ng-app="">
+				  <p>My first expression: {{ 5 + 5 }}</p>
+				</div> -->
+		  </div>
+		  
+		  <div id="right" class="sidebar">
+
+		  </div>
+		  
+		  
+		  
+		</div>
+		  
+	 
+		<div id="footer">
+			
+		</div>
+	
+	
+	
+			
+		
+		
+	</body>
+
+</html> 
